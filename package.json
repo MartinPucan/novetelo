@@ -17,7 +17,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev:css": "parcel watch front/scss/*.scss --no-source-maps -d public/css/ --no-hmr --public-url ./",
+    "build:css": "parcel build front/scss/*.scss --no-source-maps -d public/css/ --public-url ./",
+    "dev:js": "parcel watch front/js/*.js --no-source-maps -d public/dist/js/",
+    "build:js": "parcel build front/js/*.js --no-source-maps -d public/dist/js/ --public-url ./"
   },
   "eslintConfig": {
     "extends": [
@@ -36,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.32.5"
   }
 }
