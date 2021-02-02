@@ -2,6 +2,7 @@
   "name": "novetelo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://MartinPucan.github.io/novetelo",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
@@ -21,7 +22,9 @@
     "dev:css": "parcel watch front/scss/*.scss --no-source-maps -d public/css/ --no-hmr --public-url ./",
     "build:css": "parcel build front/scss/*.scss --no-source-maps -d public/css/ --public-url ./",
     "dev:js": "parcel watch front/js/*.js --no-source-maps -d public/dist/js/",
-    "build:js": "parcel build front/js/*.js --no-source-maps -d public/dist/js/ --public-url ./"
+    "build:js": "parcel build front/js/*.js --no-source-maps -d public/dist/js/ --public-url ./",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.1.0",
     "sass": "^1.32.5"
   }
 }
