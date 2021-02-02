@@ -2,7 +2,7 @@ import React from "react";
 
 const Services = () => {
     return (
-        <section className="layout-services">
+        <section className="container-services">
             <div>
                 <div className="service--logo">
                     <div className="service--sub-logo"></div>
