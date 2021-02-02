@@ -1,12 +1,10 @@
-//@import "~panicum/dist/app.css";
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
 .body {
   background: #282c34;
   margin: 0;
   width: 100%;
   min-height: 100vh;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: "Fjalla One", sans-serif;
 }
 
 .navbar {
@@ -16,15 +14,13 @@
   justify-content: space-between;
   padding: 0 2rem;
   align-items: center;
-
-  &--menu {
-    display: flex;
-    flex-direction: row;
-
-    &-item {
-      padding: .5rem;
-    }
-  }
+}
+.navbar--menu {
+  display: flex;
+  flex-direction: row;
+}
+.navbar--menu-item {
+  padding: 0.5rem;
 }
 
 .navbar h3 {
@@ -38,11 +34,12 @@
   text-align: center;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 20vh auto 20vh;
-  column-gap: .75rem;
+  column-gap: 0.75rem;
   margin: 0 auto;
   row-gap: 1rem;
-
-  @media screen and (min-width: 1000px) {
+}
+@media screen and (min-width: 1000px) {
+  .layout-services {
     max-width: 1000px;
   }
 }
