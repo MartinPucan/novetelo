@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/novetelo/static/css/main.b7ca24ca.chunk.css",
+    "main.js": "/novetelo/static/js/main.ee69b3f0.chunk.js",
+    "main.js.map": "/novetelo/static/js/main.ee69b3f0.chunk.js.map",
+    "runtime-main.js": "/novetelo/static/js/runtime-main.ea4f09e6.js",
+    "runtime-main.js.map": "/novetelo/static/js/runtime-main.ea4f09e6.js.map",
+    "static/js/2.6d9bb588.chunk.js": "/novetelo/static/js/2.6d9bb588.chunk.js",
+    "static/js/2.6d9bb588.chunk.js.map": "/novetelo/static/js/2.6d9bb588.chunk.js.map",
+    "static/js/3.83b13702.chunk.js": "/novetelo/static/js/3.83b13702.chunk.js",
+    "static/js/3.83b13702.chunk.js.map": "/novetelo/static/js/3.83b13702.chunk.js.map",
+    "index.html": "/novetelo/index.html",
+    "static/css/main.b7ca24ca.chunk.css.map": "/novetelo/static/css/main.b7ca24ca.chunk.css.map",
+    "static/js/2.6d9bb588.chunk.js.LICENSE.txt": "/novetelo/static/js/2.6d9bb588.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ea4f09e6.js",
+    "static/js/2.6d9bb588.chunk.js",
+    "static/css/main.b7ca24ca.chunk.css",
+    "static/js/main.ee69b3f0.chunk.js"
+  ]
+}
