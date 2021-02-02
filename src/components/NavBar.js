@@ -5,9 +5,15 @@ function NavBar() {
         <nav className="navbar">
             <h3>Novetelo.cz</h3>
             <div className="navbar--menu">
-                <div className="navbar--menu-item">Contacts</div>
-                <div className="navbar--menu-item">Links</div>
-                <div className="navbar--menu-item">Forum</div>
+                <div className="navbar--menu-item">
+                    <a href="#">Contacts</a>
+                </div>
+                <div className="navbar--menu-item">
+                    <a href="#">Links</a>
+                </div>
+                <div className="navbar--menu-item">
+                    <a href="#">Forum</a>
+                </div>
             </div>
         </nav>
     );
