@@ -1,4 +1,3 @@
-import '../App.css';
 import NavBar from "./NavBar";
 import Description from "./Description";
 import Services from "./Services";
