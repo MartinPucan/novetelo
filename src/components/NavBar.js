@@ -1,6 +1,6 @@
 import React from "react";
 
-function NavBar() {
+const NavBar = () => {
     return (
         <nav className="navbar">
             <h3>Novetelo.cz</h3>

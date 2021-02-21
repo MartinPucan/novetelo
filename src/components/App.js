@@ -1,6 +1,7 @@
 import NavBar from "./NavBar";
 import Description from "./Description";
 import Services from "./Services";
+import FoodCarousel from "./FoodCarousel";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <NavBar />
       <Description />
       <Services />
+      <FoodCarousel />
     </div>
   );
 }
