@@ -2,17 +2,19 @@ import NavBar from "./NavBar";
 import Description from "./Description";
 import Services from "./Services";
 import FoodCarousel from "./FoodCarousel";
+import Footer from "./Footer";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <NavBar />
-      <section className="layout">
+      <main className="layout">
           <Description />
           <Services />
           <FoodCarousel />
-      </section>
-    </div>
+      </main>
+      <Footer />
+    </>
   );
 }
 
