@@ -7,9 +7,11 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <Description />
-      <Services />
-      <FoodCarousel />
+      <section className="layout">
+          <Description />
+          <Services />
+          <FoodCarousel />
+      </section>
     </div>
   );
 }

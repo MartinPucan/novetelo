@@ -8,6 +8,10 @@
     max-width: 768px;
     margin: 1rem auto;
     overflow: auto;
+
+    @media screen and (max-width: 480px) {
+      width: 95%;
+    }
   }
 
   &-title {
@@ -15,7 +19,7 @@
     margin-bottom: .75rem;
   }
 
-  &-items {
+  &-wrapper {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
