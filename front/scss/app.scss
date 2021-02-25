@@ -39,6 +39,7 @@ body {
 
 .layout {
   @media screen and (min-width: 1000px) {
+    margin: 0 auto;
     max-width: 768px;
   }
 }
@@ -129,5 +130,24 @@ body {
     left: 60px;
     width: 300px;
     height: 300px;
+  }
+}
+
+.footer {
+  &__container {
+    padding: 2rem;
+    background: #fff9d4;
+  }
+
+  &__wrapper {
+    max-width: 768px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .col-4 {
+      flex-basis: 25%;
+    }
   }
 }
