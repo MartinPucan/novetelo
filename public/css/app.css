@@ -84,6 +84,9 @@ body {
   font-size: 2em;
 }
 
+.layout {
+  width: 100%;
+}
 @media screen and (min-width: 1000px) {
   .layout {
     margin: 0 auto;
@@ -182,6 +185,9 @@ body {
   }
 }
 
+.footer {
+  margin-top: 1rem;
+}
 .footer__container {
   padding: 2rem;
   background: #fff9d4;
@@ -195,4 +201,9 @@ body {
 }
 .footer__wrapper .col-4 {
   flex-basis: 25%;
+}
+@media screen and (max-width: 480px) {
+  .footer__wrapper .col-4 {
+    flex-basis: 50%;
+  }
 }
