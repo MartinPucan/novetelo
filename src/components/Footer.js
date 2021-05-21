@@ -9,8 +9,6 @@ const Footer = () => {
                     <div>Lorem</div>
                     <div>Lorem</div>
                     <div>Lorem</div>
-                    <div>Lorem</div>
-                    <div>Lorem</div>
                 </div>
                 <div className="col-4">
                     <h3>Items 2</h3>

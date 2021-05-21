@@ -4,11 +4,12 @@ import adamImage from '../adam1.jpg';
 const Description = () => {
     return (
         <section className="container-description">
-            <div className="square"></div>
+            <div className="quote">
+                <q>Until you start believing in yourself you ain't gonna have a life</q>
+            </div>
             <div className="main-image">
                 <img src={adamImage} alt="adam" loading="lazy" />
             </div>
-            <div className="line"></div>
         </section>
     )
 }
