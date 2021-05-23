@@ -1,5 +1,5 @@
 import React from 'react';
-import burgerIco from '../burger-ico.jpeg';
+import burgerIco from '/img/burger-ico.jpeg';
 
 const FoodCarousel = () => {
     const foods = [

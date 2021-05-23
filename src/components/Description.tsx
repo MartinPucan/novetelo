@@ -1,5 +1,5 @@
 import React from 'react';
-import adamImage from '../adam1.jpg';
+import AdamImage from '/img/adam_780.jpg';
 
 const Description = () => {
     return (
@@ -8,7 +8,7 @@ const Description = () => {
                 <q>Until you start believing in yourself you ain't gonna have a life.</q>
             </div>
             <div className="main-image">
-                <img src={adamImage} alt="adam" loading="lazy" />
+                <img src={AdamImage} alt="adam" loading="lazy" />
             </div>
         </section>
     )
